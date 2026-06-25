@@ -1,0 +1,30 @@
+# Virtual Environment
+ven/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Chroma Database
+chroma_db/
+
+# Uploaded Files
+uploads/
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Test Files
+test_openAi.py
