@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from app.api.routes.rag.chroma_store import search_document
+from app.api.routes.db.rag.chroma_store import search_document
 
 from app.api.routes.db.database import SessionLocal
 from app.api.routes.db.models import ResearchHistory

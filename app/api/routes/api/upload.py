@@ -1,6 +1,6 @@
 from fastapi import APIRouter, UploadFile, File
 from pypdf import PdfReader
-from app.api.routes.rag.chroma_store import store_document
+from app.api.routes.db.rag.chroma_store import store_document
 import uuid
 import os
 
